@@ -1,15 +1,13 @@
 """
 .. module:: tmp112
 
-******
-TMP112
-******
+*************
+TMP112 Module 
+*************
 
-The TMP112 is device is a digital temperature sensor with high accuracy
-from Texas Instrument (http://www.ti.com/product/TMP112).
-The default communication protocol is I2C.
-To use this module create a TMP112 instance by passing the I2C peripheral name to which it is connected to.
-Using the module is simple::
+The TMP112 is device is a digital temperature sensor with high accuracy from Texas Instrument (`datasheet <http://www.ti.com/lit/ds/symlink/tmp112.pdf>`_).
+
+The default communication protocol is I2C. To use this module create a TMP112 instance by passing the I2C peripheral name to which it is connected to. Using the module is simple::
 
     from texas.tmp112 import tmp112
     import streams
@@ -53,7 +51,7 @@ TMP112 class
         """
 .. method:: temperature()
         
-        Return the object temperature in Celsius.
+        Returns the object temperature in Celsius.
         
         """
         rx=self.write_read(0x00,2)

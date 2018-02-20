@@ -1,1 +1,20 @@
-{"dependencies": {"core.zerynth.stdlib": "r1.0.0"}, "name": "tmp112", "examples": [], "whatsnew": ""}
+{
+    "dependencies": {},
+    "description": "Driver for Texas TMP112 I2C temperature sensor",
+    "fullname": "lib.texas.tmp112",
+    "git_pointer": "zerynth://zerynth-libs/texas-tmp112",
+    "info": {
+        "chip_manufacturer": "Texas Instrument",
+        "chip_name": "TMP112",
+        "name": "Temperature Sensor",
+        "type": "Sensor"
+    },
+    "keywords": [
+        "texas",
+        "temperature"
+    ],
+    "repo": "official",
+    "title": "Texas TMP112 temperature sensors",
+    "version": "r2.0.11",
+    "whatsnew": ""
+}
