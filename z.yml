@@ -1,0 +1,13 @@
+---
+description: Driver for Texas TMP112 I2C temperature sensor
+fullname: lib.texas.tmp112
+info:
+    chip_manufacturer: Texas Instrument
+    chip_name: TMP112
+    name: Temperature Sensor
+    type: Sensor
+keywords:
+- texas
+- temperature
+title: Texas TMP112 temperature sensors
+...
